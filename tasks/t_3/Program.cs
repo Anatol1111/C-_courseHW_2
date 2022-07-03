@@ -9,13 +9,11 @@ void functionNum()
     char[] Array = Number.ToCharArray();
     if (Array.Length > 2)
     {
-
-        Console.WriteLine(Array[2]);
+    Console.WriteLine(Array[2]); 
     }
     else
     {
-        Console.WriteLine($"{Number} --> Третьей цифры нет");
-    }
-}
+    Console.WriteLine($"{Number} --> Третьей цифры нет");
+ }
 
 functionNum();
