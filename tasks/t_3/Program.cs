@@ -7,11 +7,11 @@ void functionNum()
 Console.Write("Введите число ");
 string Number = (Console.ReadLine()).ToString();
 
-    char[] c = Number.ToCharArray();
-if (c.Length > 2)
+    char[] Array = Number.ToCharArray();
+if (Array.Length > 2)
 {
    
-   Console.WriteLine(c[2]); 
+   Console.WriteLine(Array[2]); 
 }
 else
 {
