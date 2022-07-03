@@ -4,19 +4,18 @@
 
 void functionNum()
 {
-Console.Write("Введите число ");
-string Number = (Console.ReadLine()).ToString();
+    Console.Write("Введите число ");
+    string Number = (Console.ReadLine()).ToString();
+    char[] Array = Number.ToCharArray();
+    if (Array.Length > 2)
+    {
 
-    char[] c = Number.ToCharArray();
-if (c.Length > 2)
-{
-   
-   Console.WriteLine(c[2]); 
-}
-else
-{
-    Console.WriteLine($"{Number} --> Третьей цифры нет");
-}
+        Console.WriteLine(Array[2]);
+    }
+    else
+    {
+        Console.WriteLine($"{Number} --> Третьей цифры нет");
+    }
 }
 
 functionNum();

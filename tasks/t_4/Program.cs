@@ -10,15 +10,15 @@ void Aweek()
     int Sunday = 7;
     if (Number == Saturday)
     {
-       Console.WriteLine("Выходной");
+        Console.WriteLine("Выходной");
     }
-   else if (Number == Sunday)
+    else if (Number == Sunday)
     {
-       Console.WriteLine("Выходной");
+        Console.WriteLine("Выходной");
     }
-    else 
+    else
     {
-       Console.WriteLine("Этот день не выходной"); 
+        Console.WriteLine("Этот день не выходной");
     }
 }
 Aweek();
