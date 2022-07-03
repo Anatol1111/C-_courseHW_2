@@ -5,10 +5,13 @@
 void functionNum()
 {
 Console.Write("Введите число ");
-int Number = int.Parse(Console.ReadLine());
-if (Number >= 100)
+string Number = (Console.ReadLine()).ToString();
+
+    char[] c = Number.ToCharArray();
+if (c.Length > 2)
 {
-    Console.WriteLine(Number % 10);
+   
+   Console.WriteLine(c[2]); 
 }
 else
 {
